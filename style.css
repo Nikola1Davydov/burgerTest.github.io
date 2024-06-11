@@ -1,0 +1,172 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  font-weight: 500;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  font-weight:900;
+}
+
+/* Топ */
+.header{
+  width: 1900px;
+  min-height: 900px;
+  background-image: linear-gradient(180deg, orange 47.5%, white 100%);
+}
+.navigation{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 65px;
+  padding-top: 105px;
+  min-height: 70px;
+}
+.logo{
+  display: block;
+  margin-top: 8px;
+}
+.navigation_list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: auto 0;
+  padding: 0;
+  margin-left: 149px;
+  list-style: none;
+}
+.navigation_title_main{
+  margin: 0;
+  padding: 0;
+  display: block;
+  min-width: 200px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+.navigation button{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border: none;
+  border-radius: 100px;
+  vertical-align:middle;
+}
+
+/* Бытсрая доставка */
+.conainer_page_header{
+  display: flex;
+  padding-top: 25px;
+  gap: 20px;
+  padding-left: 300px;
+}
+.text_header_list{
+  width: 600px;
+  list-style: none;
+}
+.text_header{
+  margin: 0;
+  padding: 0;
+  padding-top: 190px;
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 39px;
+}
+.text_header_discount{
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+.button_order{
+  display: block;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: red;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 25px;
+  width: 180px;
+  height: 60px;
+  border-radius: 30px;
+  border-width: 0cap;
+  color: white;
+}
+/* Меню */
+.SiteMainPart{
+  padding: 87px;
+}
+.SiteMainPart h1{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+}
+.all-product-card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 30px;
+}
+.product-card{
+  font-size: 35px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+.product-card img{
+  max-width: 100%;
+  max-height: 100%;
+}
+/* Подвал */
+.SiteButtom{
+  background-image: linear-gradient(360deg, orange, white 100%);
+  text-align: center;
+}
+.SiteButtom ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 160px;
+  gap: 100px;
+  font-size: 20px;
+  font-weight: 400;
+  list-style: none;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.SiteButtom a:hover{
+  font-weight: 600;
+}
+.SiteButtom h4{
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.SiteButtom div{
+  padding-top:20px;
+}
+.SiteButtom a{
+  vertical-align: middle;
+}
+
